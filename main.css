@@ -54,6 +54,28 @@ header p {
   color: #fff;
 }
 
+.jumbotron2 {
+  display: flex;
+  align-items: center;
+  background-image: url('https://www.science-allemagne.fr/fr/wp-content/uploads/2013/12/Strategie-high-tech-1024x576.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron2 h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron2 h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
 .col-sm-4 {
 }
 
