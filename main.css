@@ -57,7 +57,7 @@ header p {
 .jumbotron2 {
   display: flex;
   align-items: left;
-  background-image: url('www.GoldenPolo.github.io/images/png site.png');
+  background-image: url('/images/pngsite.png');
   background-size: cover;
   color: #ffffff;
   height: 500px;
