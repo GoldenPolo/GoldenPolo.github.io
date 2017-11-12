@@ -5,11 +5,9 @@ body {
 
 header {
   padding: 20px 0;
-    background-color: #00cdff;
 }
 
 .bandeau {
-    background-color: #00cdff;
 }
 
 footer .row {
@@ -25,7 +23,6 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
-    background-color: #00cdff;
 }
 
 header p {
