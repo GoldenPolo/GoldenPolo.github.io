@@ -115,6 +115,7 @@ header p {
     width: 180px;
 	height: auto;
     max-width: 100%;
+    box-shadow: 15px 15px 15px black;
 }
 
 
@@ -137,4 +138,9 @@ header p {
 	height: auto;
     margin-left: 200px;
     margin-right: auto;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:70px;
+    box-shadow: 20px 20px 20px black;
 }
