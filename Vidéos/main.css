@@ -7,10 +7,24 @@ header {
   padding: 20px 0;
 }
 
-header .row 
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 footer .row {
   display: flex;
   align-items: center;
+}
+
+footer ul {
+  list-style: none;
+    align-content: flex-end;
+}
+
+footer li img {
+  width: 50px;
+  height: auto;
 }
 
 header h1 {
@@ -30,18 +44,19 @@ header p {
     
 }
 
+.fond {
+    background-color: rgb(17, 23, 72);
+    height: 1087px;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('');
+  background-image: url('https://www.science-allemagne.fr/fr/wp-content/uploads/2013/12/Strategie-high-tech-1024x576.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-
-.jumbotron h1 {
-    color: aliceblue;
 }
 
 .jumbotron h2 {
@@ -56,15 +71,76 @@ header p {
   color: #fff;
 }
 
-.col-sm-4 {
+.col-sm-8 {
+    font-size: 25px
 }
 
-footer ul {
-  list-style: none;
-    align-content: flex-end;
+.col-sm-1 {
+    margin-top: 15px;
+    margin-left: 70px
 }
 
-footer li img {
-  width: 32px;
-  height: 32px;
+.Description {
+  width: 1406px;
+  height: 200px;
+    display: flex;
+  align-items: center;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+    }
+
+.Description h2 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px
+}
+
+.Description p {
+    color: AliceBlue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.right_writing {
+    align-items: center;
+    margin-left: 250px;
+}
+
+.logochaine {
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:500px;
+    width: 180px;
+	height: auto;
+    max-width: 100%;
+    box-shadow: 15px 15px 15px black;
+}
+
+
+.YT {
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    color: crimson;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.right_title {
+    margin-left: 250px;
+}
+
+.left_logo {
+    width: 400px;
+	height: auto;
+    margin-left: 200px;
+    margin-right: auto;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:70px;
+    box-shadow: 20px 20px 20px black;
 }

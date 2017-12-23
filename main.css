@@ -1,15 +1,15 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
 }
 
 header {
-  padding: 20px 0;
+  padding: 1vw 0vw;
 }
 
 footer {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 100vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 footer .row {
@@ -23,30 +23,39 @@ footer ul {
 }
 
 footer li img {
-  width: 50px;
+  width: 5vw;
   height: auto;
+}
+
+.copyright {
+    font-size: 2vw;
+}
+
+.col-sm-8 {
+    align-items: center;
 }
 
 header h1 {
   font-weight: 700;
-  margin: 0;
+  margin-top: -0.3vw;
 }
 
 header nav {
   display: flex;
   justify-content: flex-end;
+  margin-top: 1vw;
 }
 
 header p {
-  padding: 0 20px;
-  margin: 0;
-    font-family: Verdana, sans-serif
+  padding: 0vw 4vw;
+  margin: 0vw;
+  font-family: Verdana, sans-serif;
     
 }
 
 .fond {
     background-color: rgb(17, 23, 72);
-    height: 1087px;
+    height: 100%;
 }
 
 .jumbotron {
@@ -60,62 +69,65 @@ header p {
 }
 
 .jumbotron h2 {
-  font-size: 60px;
+  font-size: 600%;
   font-weight: 700;
-  margin: 0;
+  margin: 0%;
   color: #fff;
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
+  margin: 0 0 1%;
   color: #fff;
 }
 
-.col-sm-8 {
-    font-size: 25px
+.col-sm-4 {
+    font-size: 3vw;
 }
 
-.col-sm-1 {
-    margin-top: 15px;
-    margin-left: 70px
+.col-sm-8-text-right {
+    font-size: 2vw
 }
 
 .Description {
-  width: 1406px;
-  height: 200px;
+  width: 100%;
+  height: 20%;
     display: flex;
   align-items: center;
   background-size: cover;
   color: #ffffff;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
     }
 
-.Description h2 {
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px
+.left_writing {
+    margin-left: 5%;
 }
 
-.Description p {
+.left_writing h2 {
+    margin-left: 10%;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+}
+
+.left_writing p {
     color: AliceBlue;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .right_writing {
     align-items: center;
-    margin-left: 250px;
+    margin-left: 15vw;
 }
 
 .logochaine {
     overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:500px;
-    width: 180px;
+    -webkit-border-radius:50vw;
+    -moz-border-radius:50vw;
+    border-radius:500vw;
+    width: 12vw;
 	height: auto;
     max-width: 100%;
-    box-shadow: 15px 15px 15px black;
+    box-shadow: 1vw 1vw 1vw black;
 }
 
 
@@ -124,23 +136,33 @@ header p {
     align-items: center;
     background-size: cover;
     color: crimson;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     text-decoration: none;
 }
 
 .right_title {
-    margin-left: 250px;
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
+
+.right_title a:hover {
+    text-decoration: none;
+    color: crimson;
 }
 
 .left_logo {
-    width: 400px;
+    width: 28vw;
 	height: auto;
-    margin-left: 200px;
-    margin-right: auto;
+    margin-left: 16vw;
     overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:70px;
-    box-shadow: 20px 20px 20px black;
+    -webkit-border-radius:50vw;
+    -moz-border-radius:50vw;
+    border-radius:90px;
+    box-shadow: 2vw 2vw 2vw black;
+}
+
+.right_title h1 {
+    margin-left: 10vw;
+    font-size: 3vw;
 }
